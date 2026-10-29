@@ -41,9 +41,25 @@ Index of the files for each part of the practical work. All links are relative, 
 
 ## Part IV: RSA (authentication, integrity, confidentiality)
 
-Not added yet.
+| Item | File |
+|---|---|
+| Report (hybrid scheme, signature, verification, handout issues) | [part4_rsa_report.md](part4_rsa_report.md) |
+| Working directory (keys, packet, recovered files) | [part4/](part4) |
+
+The packet is `file.aes`, `k.crypt`, `file.sign` and `file.sha`. Private keys (`*.prive`) must never be committed.
 
 ## Part V: Various Operations
+
+### Task 4: Hybrid encryption
+
+| Item | File |
+|---|---|
+| Report (OpenSSL CLI and Python versions, comparison) | [part5_hybrid_report.md](part5_hybrid_report.md) |
+| OpenSSL working directory (message, encrypted key, IV) | [part5/](part5) |
+| Python sender (Alice) | [part5/alice.py](part5/alice.py) |
+| Python receiver (Bob) | [part5/bob.py](part5/bob.py) |
+
+### Tasks 1-3: strong/weak ciphers, Base64 and MD5, CAST5
 
 Not added yet.
 

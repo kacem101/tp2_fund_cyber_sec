@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+*.prive
+*_private.pem
