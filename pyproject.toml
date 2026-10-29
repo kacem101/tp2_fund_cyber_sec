@@ -1,0 +1,20 @@
+[project]
+name = "tp2-fund-cyber-sec"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Belkacem Medjitna", email = "kassem101@yahoo.fr" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "argparse>=1.4.0",
+    "numpy>=2.4.6",
+]
+
+[project.scripts]
+tp2-fund-cyber-sec = "tp2_fund_cyber_sec:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
